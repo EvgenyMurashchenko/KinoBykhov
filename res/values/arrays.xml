@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="titles">
+        <item>«Белка и Стрелка: Лунные приключения»</item>
+        <item>«Нереальная любовь»</item>
+        <item>«Робокоп»</item>
+        <item>«Лего. Фильм»</item>
+        <item>«Спасти мистера Бэнкса»</item>
+        <item>«Легок на помине»</item>
+    </string-array>
+    <string-array name="D">
+        <item>2D</item>
+        <item>2D</item>
+        <item>2D</item>
+        <item>3D</item>
+        <item>2D</item>
+        <item>2D</item>
+    </string-array>
+    <string-array name="country">
+        <item>Анимация, Россия</item>
+        <item>Комедия, Россия</item>
+        <item>Фантастика, боевик, США</item>
+        <item>Анимация, Австралия</item>
+        <item>Драма, комедия, история, США</item>
+        <item>Комедия, Россия</item>
+    </string-array>
+    <string-array name="sDays">
+        <item>01.03.2014</item>
+        <item>03.03.2014</item>
+        <item>08.03.2014</item>
+        <item>10.03.2014</item>
+        <item>15.03.2014</item>
+    </string-array>
+    <string-array name="eDays">
+        <item>02.03.2014</item>
+        <item>07.03.2014</item>
+        <item>09.03.2014</item>
+        <item>14.03.2014</item>
+        <item>16.03.2014</item>
+    </string-array>
+
+    <integer-array name="date_id">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="tFilm">
+        <item>14:00</item>
+        <item>16:00</item>
+        <item>17:30</item>
+        <item>20:00</item>
+        <item>21:30</item>
+        <item>14:00</item>
+        <item>16:00</item>
+        <item>18:15</item>
+        <item>20:00</item>
+        <item>13:00</item>
+        <item>15:00</item>
+        <item>17:00</item>
+        <item>19:15</item>
+        <item>20:45</item>
+        <item>14:00</item>
+        <item>16:00</item>
+        <item>18:30</item>
+        <item>20:45</item>
+        <item>13:00</item>
+        <item>15:00</item>
+        <item>17:00</item>
+        <item>19:30</item>
+        <item>21:45</item>
+    </string-array>
+    <integer-array name="film_id">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>2</item>
+        <item>5</item>
+        <item>4</item>
+        <item>4</item>
+        <item>5</item>
+        <item>2</item>
+        <item>5</item>
+        <item>4</item>
+        <item>6</item>
+        <item>5</item>
+        <item>6</item>
+        <item>4</item>
+        <item>4</item>
+        <item>6</item>
+        <item>5</item>
+        <item>6</item>
+    </integer-array>
+
+</resources>
