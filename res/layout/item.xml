@@ -15,7 +15,6 @@
             android:layout_gravity="left"
             android:layout_weight="1"
             android:text="Название"
-            android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold" />
 

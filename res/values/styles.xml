@@ -10,6 +10,7 @@
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
         -->
+        <item name="actionBarStyle">@style/RetroActionBar</item>
     </style>
 
     <!-- Application theme. -->
@@ -17,7 +18,11 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
     
-    <style name="Button">
+    <style name="RetroActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="background">@color/retroGray</item>
+    </style>
+    
+    <style name="Button" >
         <item name="android:background">@color/retroRed</item>
         <item name="android:layout_marginLeft">15dp</item>
         <item name="android:layout_marginTop">15dp</item>
@@ -25,7 +30,7 @@
         <item name="android:layout_marginBottom">15dp</item>
         <item name="android:paddingBottom">10dp</item>
         <item name="android:paddingTop">10dp</item>
-        <item name="android:textColor">@color/background</item>
+        <item name="android:textColor">@color/background_activity</item>
     </style>
     
 
