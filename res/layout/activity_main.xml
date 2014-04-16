@@ -3,8 +3,8 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/background_activity"
+    android:orientation="vertical"
     tools:context="com.example.kinobykhov.MainActivity"
     tools:ignore="MergeRootFrame" >
 
@@ -12,14 +12,15 @@
         android:id="@+id/tvDate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="15dp"
-        android:layout_marginTop="15dp"
         android:layout_weight="0"
+        android:background="@color/background_text"
         android:gravity="center_horizontal"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
         android:text="TextView"
         android:textAllCaps="true"
         android:textColor="@color/retroRed"
-        android:textSize="30sp"
+        android:textSize="22sp"
         android:textStyle="normal"
         android:typeface="normal" />
 
@@ -27,20 +28,28 @@
         android:id="@+id/lvMain"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
         android:layout_weight="1"
         android:cacheColorHint="@android:color/transparent"
         android:clickable="false"
         android:longClickable="false"
         android:scrollingCache="false" />
 
-    <Button
-        android:id="@+id/btnCalendar"
-        style="@style/Button"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0"
-        android:text="Выбрать дату" />
+        android:background="@color/background_text"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnCalendar"
+            style="@style/Button"
+            android:layout_width="match_parent"
+            android:layout_weight="0"
+            android:text="Выбрать дату" />
+
+    </LinearLayout>
 
 </LinearLayout>

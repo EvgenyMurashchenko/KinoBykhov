@@ -809,7 +809,7 @@ containing a value of this type.
         public static final int abc_search_url_text_pressed=0x7f070002;
         public static final int abc_search_url_text_selected=0x7f070001;
         public static final int background_activity=0x7f070003;
-        public static final int black=0x7f070006;
+        public static final int background_text=0x7f070006;
         public static final int retroGray=0x7f070005;
         public static final int retroRed=0x7f070004;
     }

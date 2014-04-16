@@ -18,6 +18,8 @@
         android:id="@+id/pickerDate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
         android:layout_weight="1"
         android:calendarViewShown="true"
         android:spinnersShown="false" />
@@ -26,7 +28,6 @@
         android:id="@+id/btnSet"
         style="@style/Button"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:text="Выбрать" />
 
 </LinearLayout>

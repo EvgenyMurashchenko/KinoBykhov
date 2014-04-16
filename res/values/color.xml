@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="background_activity">#e3dfc6</color>
-    <color name="retroRed">#d7281e</color>
-    <color name="retroGray">#706d5c</color>
+    <color name="background_activity">#E3DFC6</color>
+    <color name="retroRed">#C9251C</color>
+    <color name="retroGray">#706D5C</color>
+    <color name="background_text">#C9C6B0</color>
 </resources>

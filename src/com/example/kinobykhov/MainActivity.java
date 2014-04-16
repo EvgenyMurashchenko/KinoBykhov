@@ -14,7 +14,6 @@ import android.support.v7.app.ActionBarActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
-import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -77,11 +76,6 @@ LoaderCallbacks<Cursor>, TextWatcher {
 		super.onDestroy();
 		// закрываем подключение при выходе
 		db.close();
-	}
-
-	public boolean onCreateOptionsMenu(Menu menu) {
-		getMenuInflater().inflate(R.menu.main, menu);
-		return true;
 	}
 
 	@Override
