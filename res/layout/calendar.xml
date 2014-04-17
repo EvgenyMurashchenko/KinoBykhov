@@ -24,10 +24,17 @@
         android:calendarViewShown="true"
         android:spinnersShown="false" />
 
-    <Button
-        android:id="@+id/btnSet"
-        style="@style/Button"
-        android:layout_width="match_parent"
-        android:text="Выбрать" />
+    <LinearLayout
+        android:id="@+id/lvUnderBtn"
+        style="@style/bcgUnder_button"
+        android:layout_width="match_parent" >
+
+        <Button
+            android:id="@+id/btnSet"
+            style="@style/Button"
+            android:layout_width="match_parent"
+            android:text="Выбрать" />
+
+    </LinearLayout>
 
 </LinearLayout>

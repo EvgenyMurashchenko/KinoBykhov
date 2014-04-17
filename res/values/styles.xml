@@ -34,5 +34,13 @@
         <item name="android:textSize">18sp</item>
     </style>
     
+    <style name="bcgUnder_button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:background">@color/background_text</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    
 
 </resources>
